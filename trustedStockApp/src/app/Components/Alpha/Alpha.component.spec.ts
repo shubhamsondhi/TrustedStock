@@ -1,9 +1,6 @@
-/* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
-import { AlphaComponent } from './Alpha.component';
+import { AlphaComponent } from './alpha.component';
 
 describe('AlphaComponent', () => {
   let component: AlphaComponent;

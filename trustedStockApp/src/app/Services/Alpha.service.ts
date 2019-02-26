@@ -22,7 +22,7 @@ export class AlphaService {
       .get<any>(
         `${
           this.API_URL
-        }/function=${functionName}&symbol=${symbol}&interval=${interval}&apikey=${
+        }function=${functionName}&symbol=${symbol}&interval=${interval}&apikey=${
           this.ApiKey
         }`
       )
