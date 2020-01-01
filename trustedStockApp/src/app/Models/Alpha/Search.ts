@@ -1,8 +1,8 @@
-export interface ISearch {
+export class Search {
   bestMatches: BestMatch[];
 }
 
-interface BestMatch {
+class BestMatch {
   '1. symbol': string;
   '2. name': string;
   '3. type': string;
